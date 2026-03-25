@@ -155,6 +155,10 @@ plot_loss(hist_pinn_with_params)
 
 
 #%%
+#####################################
+#####################################
+#####################################
+
 print("\n++++++++ Training PINN model (state space representation) ++++++++\n")
 
 model_pinn_2 = NeuralNet(1, 2, [16, 16])
